@@ -1,7 +1,7 @@
 {
   "name": "simpleton",
   "description": "Command line argument parser with command callback support",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Harri Kovalainen",
     "email": "hakovala@gmail.com"
