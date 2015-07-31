@@ -27,17 +27,10 @@ module.exports = function(argv, opts) {
 
 	var args = minimist(global_args._.slice(1), options);
 
-	function execCommand() {
-		if (typeof callback === 'function') {
-			return callback.apply(null, [args].concat(arguments));
-		}
-		return false;
-	};
-
 	return {
 		name: command,
 		common: global_args,
 		args: args,
-		exec: execCommand,
+		exec: callback && callback.bind(null, args),
 	};
 };
