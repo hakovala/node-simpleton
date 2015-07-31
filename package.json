@@ -1,19 +1,25 @@
 {
   "name": "simpleton",
   "description": "Command line argument parser with command callback support",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": {
-  	"name": "Harri Kovalainen",
-  	"email": "hakovala@gmail.com"
+    "name": "Harri Kovalainen",
+    "email": "hakovala@gmail.com"
   },
   "repository": {
-  	"type": "git",
-  	"url": "git://github.com/hakovala/simpleton.git"
+    "type": "git",
+    "url": "git://github.com/hakovala/simpleton.git"
   },
   "main": "index.js",
   "dependencies": {
     "minimist": "^1.1.2"
   },
-  "keywords": [ "args", "argv", "arguments", "parser", "command" ],
+  "keywords": [
+    "args",
+    "argv",
+    "arguments",
+    "parser",
+    "command"
+  ],
   "license": "MIT"
 }
